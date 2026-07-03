@@ -49,3 +49,23 @@ body{padding-bottom:86px}.header-link{padding:9px 12px;border:0;color:#090909;ba
   .utility-stop .utility-item em{font-size:29px}
   .records-nowrap{font-size:clamp(20px,5.7vw,24px);letter-spacing:-.075em}
 }
+
+/* Embedded handwriting font and crossed-out lifeline cards */
+@font-face{font-family:"TRAVIS Hand";src:url("./assets/Yomogi-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+.ledger-row strong,.ledger-row.card strong{font-family:"TRAVIS Hand",cursive!important;font-weight:400!important}
+.utility-stop>div{gap:9px}
+.utility-stop .utility-item{position:relative;display:flex;min-height:132px;flex-direction:column;align-items:center;justify-content:center;gap:7px;overflow:hidden;padding:13px 8px 9px;border:0;background:#e9e7e1;color:#111;box-shadow:inset 0 0 0 1px rgba(0,0,0,.14)}
+.utility-item svg{position:relative;z-index:1;width:61px;height:61px;fill:none;stroke:#111;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
+.utility-item b{position:relative;z-index:3;color:#111;font-size:11px;font-weight:700;letter-spacing:.08em}
+.utility-stop .utility-item em{position:absolute;z-index:2;top:18px;left:50%;width:76px;height:76px;padding:0;border:0;color:transparent;font-size:0;transform:translateX(-50%)}
+.utility-stop .utility-item em:before,.utility-stop .utility-item em:after{position:absolute;top:34px;left:0;width:76px;height:8px;border-radius:999px;background:#e31c17;box-shadow:0 0 8px rgba(227,28,23,.22);content:""}
+.utility-stop .utility-item em:before{transform:rotate(45deg)}
+.utility-stop .utility-item em:after{transform:rotate(-45deg)}
+@media(max-width:600px){
+  .utility-stop>div{gap:5px}
+  .utility-stop .utility-item{min-height:116px;padding:10px 3px 7px}
+  .utility-item svg{width:52px;height:52px}
+  .utility-item b{font-size:10px}
+  .utility-stop .utility-item em{top:13px;width:66px;height:66px}
+  .utility-stop .utility-item em:before,.utility-stop .utility-item em:after{top:30px;width:66px;height:7px}
+}
