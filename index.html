@@ -8,23 +8,22 @@
   <title>TRAVIS — AFTER THE END</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Serif+JP:wght@500;600;700&family=Yomogi&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="TRAVIS トップへ"><b>T</b><span>TRAVIS</span></a>
-    <a class="header-link" href="https://example.com/line">LINEで続きを見る</a>
+    <a class="header-link" href="https://example.com/line">生活の立て直し方を聞く</a>
   </header>
 
   <main>
     <section class="hero" id="top">
       <div class="hero-copy">
         <p class="eyebrow">AFTER THE END</p>
-        <h1><span class="hero-bankruptcy">自己破産</span><br><span class="hero-utilities">電気・水道・ガス停止</span><br><span class="hero-rise-line">ホームレス同然の生活から、<em>資産11億へ</em></span></h1>
-        <a class="line-cta" href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span><small>CONTINUE ON LINE</small><strong>生活の立て直し方を聞く</strong></span><i>↗</i></a>
+        <h1><span class="hero-bankruptcy">自己破産</span><br><span class="hero-utilities">電気・水道・ガス停止</span><br><span class="hero-rise-line">ホームレス同然の生活→<em><b>資産11億</b>へ</em></span></h1>
+        <a class="line-cta" href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span><strong>生活の立て直し方を聞く</strong></span><i>↗</i></a>
       </div>
       <div class="hero-art photo-art" aria-label="背を向けたトラヴィスの写真">
         <img class="hero-photo" src="./assets/travis-back.png" alt="背を向けて立つトラヴィス">
@@ -38,7 +37,7 @@
         <h2>自己破産した時に、<br>人生が終わったんじゃない。</h2>
         <div class="story-copy">
           <p class="story-emphasis">その前からもう生活は崩れていた</p>
-          <p class="work-detail">まかないで腹を満たして、<br>閉店後の床を磨いてた。<br><strong>それでも支払いは追いつかなかった。</strong></p>
+          <p class="work-detail">まかないで食いつないで、<br>閉店後は店舗に泊まることも。<br><strong>それでも支払いは追いつかなかった。</strong></p>
           <figure class="story-document"><img src="./assets/bankruptcy-paper.png" alt="自己破産当時の書面"><figcaption>その先にあった、自己破産の記録。</figcaption></figure>
           <div class="stopped"><span>電気が止まった。</span><span>水道が止まった。</span><span>ガスも止まった。</span></div>
         </div>
@@ -48,7 +47,7 @@
     <section class="collapse-ledger section">
       <div class="ledger-heading">
         <p class="section-label">02 / FAILED LOG</p>
-        <h2>金がないより怖かったのは、<br><span class="ledger-heading-nowrap">生活が止まっていくことだった。</span></h2>
+        <h2>金がないより怖かったのは、<br><span class="ledger-heading-nowrap">生活が止まっていく事だった</span></h2>
         <p class="ledger-past">生活が成り立っていなかった過去</p>
       </div>
       <div class="ledger-sheet">
@@ -56,7 +55,23 @@
         <div class="ledger-row"><div><small>MONTHLY INCOME</small><span>居酒屋バイトの手取り</span></div><strong>¥200,000</strong></div>
         <div class="ledger-row debt"><div><small>OUTSTANDING DEBT</small><span>追いつかなくなった支払い</span></div><strong>− ¥4,200,000</strong></div>
         <div class="ledger-row card"><div><small>AVAILABLE CARDS</small><span>クレジットカード</span></div><strong>作成不可</strong></div>
-        <div class="utility-stop"><small>LIFELINES / DISCONNECTED</small><div><span>電気<em>STOP</em></span><span>水道<em>STOP</em></span><span>ガス<em>STOP</em></span></div></div>
+        <div class="utility-stop">
+          <small>LIFELINES / DISCONNECTED</small>
+          <div>
+            <span class="utility-item">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M18.5 2.5 7 18h8l-1.5 11.5L25 13h-8l1.5-10.5Z"/></svg>
+              <b>電気</b><em>×</em>
+            </span>
+            <span class="utility-item">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3S7.5 13.3 7.5 20a8.5 8.5 0 0 0 17 0C24.5 13.3 16 3 16 3Z"/><path d="M11.5 20.5a4.8 4.8 0 0 0 4.8 4.8"/></svg>
+              <b>水道</b><em>×</em>
+            </span>
+            <span class="utility-item">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M18 2.5c1.2 6-4 7.3-4 12.3 0 2 1.1 3.2 2.4 4.1-.1-3.8 2.3-5.4 4.2-7.8 2.7 3.1 4.9 6.1 4.9 10.1A9.5 9.5 0 0 1 6.5 21c0-5.1 3.2-8.6 7.1-12.5-.2 3.2.9 4.1 1.8 4.8C15.2 9.4 17.7 7 18 2.5Z"/></svg>
+              <b>ガス</b><em>×</em>
+            </span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -73,7 +88,7 @@
           <p>焦って、<br>取り返そうとして、<br>普通の判断ができなくなることだった。</p>
         </div>
       </div>
-      <div class="mid-cta"><p>答えを急ぐ前に、先に見てほしい話です。</p><a class="line-cta" href="https://example.com/line" aria-label="焦ってる時ほど先に見るべき話をLINEで見る"><span><small>CONTINUE ON LINE</small><strong>焦ってる時ほど先に見るべき話をLINEで見る</strong></span><i>↗</i></a></div>
+      <div class="mid-cta"><p>焦らないでいい。俺に聞けばいい</p><a class="line-cta" href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span><strong>生活の立て直し方を聞く</strong></span><i>↗</i></a></div>
     </section>
 
     <section class="records now">
@@ -88,7 +103,7 @@
       </div>
       <div class="now-copy">
         <p class="section-label">04 / RECORDS</p>
-        <h2>戻れた証拠はある。<br>でも、見せたいのは自慢じゃない。</h2>
+        <h2>戻れた証拠はある。<br><span class="records-nowrap">でも見せたいのは自慢じゃない</span></h2>
         <div class="now-text">
           <p>資産11億。<br>ランボ。<br>都内タワマン。</p>
           <p>見せようと思えば、<br>派手なものはいくらでもある。</p>
@@ -99,7 +114,7 @@
 
     <section class="activity section">
       <p class="section-label">05 / ACTIVITY</p>
-      <div class="activity-head"><h2 class="activity-nowrap">今もドン底の感覚は残ってる</h2><p>資産が増えても、ランボに乗っても、<br>あの頃の感覚は消えてない。<br>そういう記録を、今も残してます。</p></div>
+      <div class="activity-head"><h2 class="activity-nowrap">今もドン底の感覚は残ってる</h2><p>資産が増えても、ランボに乗っても、<br>あの頃の感覚は消えてない。</p></div>
       <div class="activity-gallery media-rail">
         <figure><img src="./assets/activity-line.jpg" alt="LINEで届いたやり取り"><figcaption><small>MESSAGE 01</small><span>みんなとの、日々のやり取り。</span></figcaption></figure>
         <figure><img class="phone-shot" src="./assets/activity-phone.png" alt="スマホに残している日々の記録"><figcaption><small>RECORD 02</small><span>近い場所で残している記録。</span></figcaption></figure>
@@ -116,14 +131,14 @@
         <h2>ドン底の時にこそ、<br>良き理解者を見つける</h2>
         <p>焦っている時ほど、<br>順番を間違える。</p>
         <p>終わったと思った後でも、<br>見直せることはある。</p>
-        <p>昔の自分に先に渡したかった内容を、<br>LINEに置いてます。</p>
-        <a class="line-cta final-button" href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span><small>CONTINUE ON LINE</small><strong>生活の立て直し方を聞く</strong></span><i>↗</i></a>
+        <p>俺に任せてみなよ。</p>
+        <a class="line-cta final-button" href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span><strong>生活の立て直し方を聞く</strong></span><i>↗</i></a>
         <small class="disclaimer">※無理な利用や一発逆転を勧める内容ではありません。</small>
       </div>
     </section>
   </main>
 
   <footer><a class="brand" href="#top"><b>T</b><span>TRAVIS</span></a><p>底から戻った男の記録。</p><small>© 2026 TRAVIS.</small></footer>
-  <div class="sticky-line-cta"><a href="https://example.com/line" aria-label="生活の立て直し方を聞く"><span>LINEで</span><strong>生活の立て直し方を聞く</strong><i>↗</i></a></div>
+  <div class="sticky-line-cta"><a href="https://example.com/line" aria-label="生活の立て直し方を聞く"><strong>生活の立て直し方を聞く</strong><i>↗</i></a></div>
 </body>
 </html>
